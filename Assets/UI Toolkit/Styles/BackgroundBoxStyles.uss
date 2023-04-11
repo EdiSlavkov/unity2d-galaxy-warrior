@@ -1,0 +1,5 @@
+.backgroundBox-main-title {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}

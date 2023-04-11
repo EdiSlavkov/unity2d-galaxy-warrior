@@ -1,0 +1,19 @@
+.label-main-title {
+    -unity-font-definition: url('project://database/Assets/UI%20Toolkit/Kenney%20Blocks%20SDF.asset?fileID=11400000&guid=a211c3085895cb8448dc53a4aaf8b81a&type=2#Kenney Blocks SDF');
+    color: rgb(204, 0, 255);
+    font-size: 150px;
+    white-space: normal;
+    -unity-text-align: upper-center;
+    margin-bottom: 0;
+    margin-top: 0;
+    -unity-background-scale-mode: stretch-to-fill;
+    flex-grow: 0;
+    align-items: auto;
+}
+
+.label-menu-title {
+    font-size: 100px;
+    -unity-font-definition: url('project://database/Assets/UI%20Toolkit/Kenney%20Blocks%20SDF.asset?fileID=11400000&guid=a211c3085895cb8448dc53a4aaf8b81a&type=2#Kenney Blocks SDF');
+    color: rgb(204, 0, 255);
+    -unity-text-align: upper-center;
+}

@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/LabelStyles.uss?fileID=7433441132597879392&amp;guid=2486eb662a8423941af09ead194512fa&amp;type=3#LabelStyles" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/ButtonsStyles.uss?fileID=7433441132597879392&amp;guid=c09eac2a596e0c1499a27e35529865e4&amp;type=3#ButtonsStyles" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/BackgroundBoxStyles.uss?fileID=7433441132597879392&amp;guid=b8b6c86c9413b494c85ce4b2c156ab1d&amp;type=3#BackgroundBoxStyles" />
+    <ui:VisualElement name="BackgroundBox" class="backgroundBox-main-title" style="background-image: url(&apos;project://database/Assets/Sprites/Background.jpg?fileID=2800000&amp;guid=60eab8041e994644a9f89b0b1216934f&amp;type=3#Background&apos;); height: 1938px; width: 1089px; flex-direction: column; flex-grow: 1; opacity: 1; justify-content: space-between; align-items: stretch;">
+        <ui:VisualElement name="MainMenu" style="justify-content: space-between; height: 100%; width: auto; opacity: 1; align-items: stretch;">
+            <ui:VisualElement name="Titles" style="flex-grow: 1; width: auto; flex-direction: column; justify-content: flex-start; align-items: stretch; flex-shrink: 1; margin-left: 0; margin-top: 0; height: 1084px; margin-right: 0; margin-bottom: 0;">
+                <ui:Label text="Galaxy Warrior" display-tooltip-when-elided="true" name="GameTitle" class="label-main-title" />
+                <ui:Label text="game over!" display-tooltip-when-elided="true" name="MenuTitle" class="label-menu-title" />
+                <ui:VisualElement style="height: 30%; align-items: stretch; justify-content: space-around; margin-top: 167px;">
+                    <ui:Label text="max score:" display-tooltip-when-elided="true" name="MaxScoreTitle" class="label-menu-title" style="font-size: 80px;" />
+                    <ui:Label text="0015667" display-tooltip-when-elided="true" name="MaxScore" class="label-menu-title" style="font-size: 50px;" />
+                    <ui:Label text="game score:" display-tooltip-when-elided="true" name="GameScoreTitle" class="label-main-title" style="font-size: 80px;" />
+                    <ui:Label text="00012" display-tooltip-when-elided="true" name="GameScore" class="label-main-title" style="font-size: 50px; display: flex;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Buttons" style="margin-bottom: 2%; max-height: none; height: 491px; align-items: stretch; justify-content: center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-outline-color: rgb(56, 56, 56); width: 100%;">
+                <ui:Button text="Play again" display-tooltip-when-elided="true" name="PlayAgainButton" class="button-main-title" />
+                <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" enable-rich-text="false" class="button-main-title" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

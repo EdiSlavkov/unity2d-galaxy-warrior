@@ -1,0 +1,32 @@
+.button-main-title {
+    -unity-font-definition: url('project://database/Assets/UI%20Toolkit/Kenney%20Blocks%20SDF.asset?fileID=11400000&guid=a211c3085895cb8448dc53a4aaf8b81a&type=2#Kenney Blocks SDF');
+    font-size: 70px;
+    color: rgb(204, 0, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(204, 0, 255);
+    border-right-color: rgb(204, 0, 255);
+    border-top-color: rgb(204, 0, 255);
+    border-bottom-color: rgb(204, 0, 255);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -unity-text-align: middle-center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 140px;
+}
+
+.button-main-title:active {
+    background-color: rgba(204, 0, 255, 0.72);
+}

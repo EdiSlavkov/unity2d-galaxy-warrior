@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/LabelStyles.uss?fileID=7433441132597879392&amp;guid=2486eb662a8423941af09ead194512fa&amp;type=3#LabelStyles" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/ButtonsStyles.uss?fileID=7433441132597879392&amp;guid=c09eac2a596e0c1499a27e35529865e4&amp;type=3#ButtonsStyles" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/BackgroundBoxStyles.uss?fileID=7433441132597879392&amp;guid=b8b6c86c9413b494c85ce4b2c156ab1d&amp;type=3#BackgroundBoxStyles" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/UnityToggle.uss?fileID=7433441132597879392&amp;guid=60751ab5817e69f4e9aea0bdc7d5eb62&amp;type=3#UnityToggle" />
+    <ui:VisualElement name="BackgroundBox" class="backgroundBox-main-title" style="background-image: url(&apos;project://database/Assets/Sprites/Background.jpg?fileID=2800000&amp;guid=60eab8041e994644a9f89b0b1216934f&amp;type=3#Background&apos;); height: 1938px; width: 1089px; flex-direction: column; flex-grow: 1; justify-content: space-between; align-items: stretch; display: flex; visibility: visible; opacity: 1; transition-property: opacity; transition-duration: 2s; transition-timing-function: ease-out;">
+        <ui:VisualElement name="MainMenu" style="justify-content: space-between; height: 100%; width: auto; opacity: 1; align-items: stretch;">
+            <ui:VisualElement name="Titles" style="flex-grow: 1; width: auto; flex-direction: column; justify-content: flex-start; align-items: stretch; flex-shrink: 1; margin-left: 0; margin-top: 0; height: 1084px; margin-right: 0; margin-bottom: 0;">
+                <ui:Label text="Galaxy Warrior" display-tooltip-when-elided="true" name="GameTitle" class="label-main-title" />
+                <ui:Label text="MENU" display-tooltip-when-elided="true" name="MenuTitle" class="label-menu-title" />
+                <ui:VisualElement name="VibrationToggle" style="height: 30%; align-items: stretch; justify-content: flex-start; margin-top: 167px;">
+                    <ui:Label text="max score:" display-tooltip-when-elided="true" name="MaxScoreTitle" class="label-menu-title" style="font-size: 80px;" />
+                    <ui:Label text="0015667" display-tooltip-when-elided="true" name="MaxScore" class="label-menu-title" style="font-size: 50px;" />
+                </ui:VisualElement>
+                <ui:Toggle value="false" text="Turn vibration off" name="VibrationToggle" class="unity-checkmark" style="color: rgb(204, 0, 255); font-size: 50px; align-items: auto; justify-content: center; margin-left: 230px; margin-right: 0; margin-top: 0; margin-bottom: 0; width: auto; height: auto; -unity-font: none; -unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/Kenney%20Blocks%20SDF.asset?fileID=11400000&amp;guid=a211c3085895cb8448dc53a4aaf8b81a&amp;type=2#Kenney Blocks SDF&apos;); -unity-font-style: normal;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Buttons" style="margin-bottom: 2%; max-height: none; height: auto; align-items: stretch; justify-content: center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-text-outline-color: rgb(56, 56, 56);">
+                <ui:Button text="Start" display-tooltip-when-elided="true" name="StartButton" class="button-main-title" />
+                <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" enable-rich-text="false" class="button-main-title" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
