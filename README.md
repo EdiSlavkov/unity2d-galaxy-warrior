@@ -1,6 +1,6 @@
 # Galaxy Warrior
 
-Galaxy Warrior is an exciting arcade game developed in Unity2D where you become a skilled space warrior entrusted with the mission to defend the galaxy against enemy ships.
+Galaxy Warrior is an exciting arcade game developed in Unity2D for Android where you become a skilled space warrior entrusted with the mission to defend the galaxy against enemy ships.
 
 ## Features
 
